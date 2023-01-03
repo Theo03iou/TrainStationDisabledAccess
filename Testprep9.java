@@ -33,19 +33,9 @@ public class Testprep9 {
             
         }
         nextStage(newStation);
-
     }
-
-    private static void setAccess(boolean stepFree, int i, station[] newStation) {
-        newStation[i].access = stepFree;
-     }
-
-    private static void setName(String stationName, int i, station newStation[]) {
-        newStation[i].name = stationName;
-    }
-
     
-
+    
     private static void nextStage(station[] newStation) {
         for (int i = 0; i < newStation.length; i++) {
             String name = getName(newStation, i);
@@ -55,7 +45,16 @@ public class Testprep9 {
         }
         System.exit(0);;
     }
+    
+    
+    private static void setAccess(boolean stepFree, int i, station[] newStation) {
+        newStation[i].access = stepFree;
+     }
 
+    private static void setName(String stationName, int i, station newStation[]) {
+        newStation[i].name = stationName;
+    }
+    
     private static boolean getAccess(station[] newStation, int i) {
         return newStation[i].access;
     }
@@ -63,6 +62,10 @@ public class Testprep9 {
     private static String getName(station[] newStation, int i) {
         return newStation[i].name;
     }
+    
+ 
+
+
 }
 
 

@@ -20,7 +20,7 @@ public class Testprep9 {
         for (int i = 0; i < stationLeng; i++) {
             newStation[i] = new station();
 
-            System.out.println("Enter the name of an underground station:\nEnter 'stop' to go to the next stage");
+            System.out.println("Enter the name of an underground station:");
             String stationName2 = scanner.nextLine();
             String stationName = scanner.nextLine();
 

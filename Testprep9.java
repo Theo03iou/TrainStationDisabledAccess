@@ -24,10 +24,6 @@ public class Testprep9 {
             String stationName2 = scanner.nextLine();
             String stationName = scanner.nextLine();
 
-
-            if (stationName.equals("stop")) {
-            }
-
             setName(stationName, i, newStation);
 
             System.out.println("Does " + stationName + " have step-free access?\nJust enter true or false");

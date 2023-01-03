@@ -43,7 +43,7 @@ public class Testprep9 {
             System.out.println(name + " Station has step-free access: " + access);
 
         }
-        System.exit(0);;
+        System.exit(0);
     }
     
     

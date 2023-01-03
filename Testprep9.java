@@ -62,11 +62,5 @@ public class Testprep9 {
     private static String getName(station[] newStation, int i) {
         return newStation[i].name;
     }
-    
  
-
-
 }
-
-
-

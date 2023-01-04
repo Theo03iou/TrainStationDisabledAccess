@@ -56,7 +56,10 @@ public class stationProgram {
 
                 if (stationChoice > 0 && stationChoice <= newStation.length) {
                     System.out.println(getStationName(newStation, userChoice - 1) + " station has disabled access: " + getStationAccess(newStation, userChoice - 1));
+                } else {
+                    System.out.println("This station does not exist, please choose from 1 to " + newStation.length);
                 }
+            
         } else if (userChoice == 3) {
             for (int i = 0; i < newStation.length; i++) {
                 if (newStation[i].accessibility == true) {
